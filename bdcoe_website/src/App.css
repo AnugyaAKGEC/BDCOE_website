@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 3em;
+}
+
+.logo{
+    display: flex;
+    width: 15%;
+    text-align: center;
+    background-color: grey;
+    border-radius: 10px;
+}
+.logo>span{
+    vertical-align: middle;
+}
+
+.menu{
+    display: flex;
+    background-color:grey;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.menu>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu>ul>li{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.register{
+    display: flex;
+    width: 15%;
+    text-align: center;
+    background-color: grey;
+    border-radius: 10px;
+}
